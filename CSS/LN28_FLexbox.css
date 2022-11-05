@@ -1,8 +1,10 @@
 .container{
     height: 544px;
-    width: 100%;
-    border: 2px solid black;
+    width: 100%; 
+    /* width: max-content; */
+    border: 2px solid black; 
     display: flex;
+    margin: 0px;
     /* Flex properties for flex container*/
     flex-direction: row;
     /* Defalut value of flex-direction in row*/
@@ -12,6 +14,7 @@
     /*flex-wrap: wrap-reverse;/*Wrap from opposite direction*/
     /*flex-flow: row-reverse wrap;*/
     justify-content: center;
+    /* background-color: aqua; */
     /* the content will always be aligned center */
     /* justify-content: space-between; */
     /* The space between the contents will always be same */
